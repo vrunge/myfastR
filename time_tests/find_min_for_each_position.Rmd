@@ -1,0 +1,64 @@
+---
+title: |
+  | find minimum value for each position
+subtitle: |  
+  | with application to HD multiple change-point detection
+  | by dynamic programming
+author: "Vincent Runge"
+date: "2022-08-30"
+output:
+  prettydoc::html_pretty:
+    toc: true
+    toc_depth: 1
+    number_sections: true
+    css: style.css
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# the dataframe / datatable info
+
+```{r}
+library(myfastR)
+```
+
+
+```{r}
+n <- 50
+p <- 10
+info <- infoGenerator(n,p)
+info
+```
+
+
+
+# Functions in competition
+
+
+```{r, eval=FALSE}
+
+```
+
+
+
+# Results
+
+## Small n, small p
+
+## Small n, large p
+
+
+## Large n, small p
+
+## Large n, large p
+
+
+
+
+
+
+
+
